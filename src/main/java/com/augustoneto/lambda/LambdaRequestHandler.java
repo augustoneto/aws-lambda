@@ -7,7 +7,7 @@ public class LambdaRequestHandler implements RequestHandler<String, String> {
 
 	public String handleRequest(String input, Context context) {
 		context.getLogger().log("Input: " + input);
-        return "Welcome to lambda function - " + input;
+        	return "Welcome to lambda function - " + input;
 	}
 
 }

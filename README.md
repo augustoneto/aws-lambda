@@ -27,3 +27,14 @@ Memory: Provide memory that will be used by our lambda function.
 Timeout: Select a time for execution of lambda function for each request.
 4. Once you are done with all inputs, click “Next” which will show you to review the configuration.
 5. Once a review is completed, click on “Create Function”.
+
+## Invoke the Function
+
+Once the AWS lambda function is created, we'll test it by passing in some data:
+
+- Click on your lambda function from lists and then click on “Test” button
+- A popup window will appear which contains dummy value for sending data. Override the data with "AWS Lambda Test"
+- Click on “Save and test” button
+On the screen, you can see the Execution result section with successfully returned output as:
+
+"Welcome to lambda function - AWS Lambda Test"
